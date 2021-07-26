@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,700,700i&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Змейка</title>
+</head>
+
+<body id="body">
+
+    <span class="square invisible"></span>
+
+    <div class="keyboard">
+        <button class="right"><span>D</span></button>
+        <button class="stop active"><span class="stopText">Select (Space)</span></button>
+        <button class="left"><span>A</span></button>
+        <button class="down"><span>S</span></button>
+        <button class="up"><span>W</span></button>
+        <button class="nitro"><span class="text-nitro">Nitro (F)</span><span class="background-nitro"></span></button>
+        <div class="flash-nitro"></div>
+        <button class="time"><span class="text-time">Slow time (LShift)</span><span
+                class="background-time"></span></button>
+        <div class="flash-time"></div>
+
+        <button class="language"><span>Lang (en) (press E)</span></button>
+    </div>
+
+    <ul class="menu"></ul>
+
+    <svg width="382px" height="424px" viewBox="0 0 382 424" class="border">
+        <polyline stroke-width="3" points="381,1 381,423 1,423 1,1 381,1" class="bg-line" />
+        <polyline stroke-width="3" points="381,1 381,423 1,423 1,1 382,1" class="hl-line" />
+    </svg>
+
+    <div class="stickMenuLeft"></div>
+    <div class="stickMenuRight"></div>
+
+    <div class="container-of-record"><span class="cube"></span><span class="text-record">X 0</span></div>
+    <div class="container-of-record__for-end"><span class="cube"></span><span class="text-record">X 0</span></div>
+
+    <span class="game-over">Game Over</span>
+
+    <div class="wrap">
+        <button class="button">Space</button>
+    </div>
+
+    <div class="center-circle"></div>
+
+    <script src="alert.js"></script>
+</body>
+
+</html>
